@@ -1,0 +1,6 @@
+#lfx
+node_modules
+/node_modules
+_gitIgnore
+/_gitIgnore/
+.eslintcache
