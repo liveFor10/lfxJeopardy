@@ -8,7 +8,7 @@ const starterQnas = [
   {id: 10, category: 'one', question: 'deal', hint: 'with', airDate: new Date(1977, 8, 3), pointValue: 1000},
   {id: 11, category: 'front', question: 'end', hint: 'ui', airDate: new Date(1977, 8, 4), pointValue: 100},
   {id: 12, category: 'components', question: 'answer:', hint: '"react"',  airDate: new Date(1977, 8, 5), pointValue: 200}
-];
+]; 
 
 const App = () => {
 

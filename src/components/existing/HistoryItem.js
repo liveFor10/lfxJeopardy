@@ -9,7 +9,7 @@ function HistoryItem(props) {
       <Card className='history-item'>
         <div className='history-item__description'>
           <BlockDate date={props.airDate} type={'originally aired'}></BlockDate>
-          {/* <BlockDate date={props.rePlayedDate} type={'re-played'}></BlockDate> lfx start here */} 
+          {/* <BlockDate date={props.rePlayedDate} type={'re-played'}></BlockDate>  lfx problem 1 */}
           <h2>{props.category}</h2>
           <div>{props.question}</div>
           <div>{props.hint}</div>

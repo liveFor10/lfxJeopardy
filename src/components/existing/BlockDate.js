@@ -3,8 +3,7 @@ import './BlockDate.css';
 
 function BlockDate(props) {
   
-  /* console.log('props.type=' + props.type);
-  console.log('props.date=' + props.date); */
+  console.log('props.date=' + props.date);
 
   const type = props.type;
   const month = props.date.toLocaleString("en-US", { month: "long" });
