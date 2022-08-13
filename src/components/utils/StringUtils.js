@@ -1,5 +1,6 @@
-/* import { jwDistance } from "../jaro-winkler/jaro-winkler-js.min.js"
- */
+/* import { jwDistance } from "../jaro-winkler/jaro-winkler-js.min.js" */
+
+
 function reduce(v1) {
 
   let v2 = v1.toLowerCase();
@@ -8,6 +9,10 @@ function reduce(v1) {
   v2 = v2.replace('what is ', '');
   v2 = v2.replace('?', '');
   v2 = v2.replace('-', '');
+  v2 = v2.replace('<i>', '');
+  v2 = v2.replace('</i>', '');
+  v2 = v2.replace('\\', '');
+  v2 = v2.replace('"', '');
   return v2;
 }
 

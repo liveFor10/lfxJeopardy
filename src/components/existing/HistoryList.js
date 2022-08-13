@@ -4,7 +4,7 @@ import HistoryItem from './HistoryItem.js';
 
 const HistoryList = (props) => {
 
-  console.log('hlProps=' + JSON.stringify(props));
+  console.log('histlist props=' + JSON.stringify(props));
 
   return (
     <ul className='history-list'>

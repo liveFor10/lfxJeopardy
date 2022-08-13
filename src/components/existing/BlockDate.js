@@ -3,18 +3,13 @@ import './BlockDate.css';
 
 function BlockDate(props) {
   
-  console.log('props.date=' + props.date);
+  /* console.log('props.date=' + props.date); */
 
   const type = props.type;
   const month = props.date.toLocaleString("en-US", { month: "long" });
   const day = props.date.toLocaleString("en-US", { day: "2-digit" });
   const year = props.date.getFullYear();
 
-/*   console.log('type=' + type);
-  console.log('month=' + month);
-  console.log('day=' + day);
-  console.log('year=' + year);
- */
   return (
     <div className='block-date'>
       <div className='block-date__month'>{month}</div>

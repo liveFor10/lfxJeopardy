@@ -4,6 +4,8 @@ import HistoryList from './HistoryList.js';
 
 function Qnas(props) {
   
+  console.log('qnas JSON.stringify(props.qnaData)=' + JSON.stringify(props.qnaData));
+
   return (
     <div>
       <Card className="qnas">
